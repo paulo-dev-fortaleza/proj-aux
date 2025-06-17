@@ -10,12 +10,14 @@ nav {
   height: 10vh;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0 20px;
   background-color: rgb(182, 177, 177);
 }
 .logo {
-  height: 50px;
-  margin-right: 30px;
+  height: 60px;
+  margin-right: 100px;
+  object-fit: contain;
 }
 ul {
   display: flex;
@@ -30,5 +32,35 @@ li {
 a {
   text-decoration: none;
   color: black;
+  font-weight: bold;
+}
+.banner img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.sobre {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #9e5656;
+}
+
+.sobre h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.sobre p {
+  font-size: 1.2rem;
+  color: #444;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #b6b1b1;
+  text-align: center;
+  padding: 20px;
   font-weight: bold;
 }
