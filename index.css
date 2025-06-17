@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: rgb(236, 226, 226);
+}
+.logo {
+  width: 72px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: aqua;
+  margin: 10px;
+}
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(78, 78, 233);
+  box-shadow: 0 0 1rem;
+}
+ul {
+  display: flex;
+  margin: 23px;
+}
+li {
+  color: white;
+  list-style-type: none;
+  cursor: pointer;
+  padding-left: 2rem;
+}
